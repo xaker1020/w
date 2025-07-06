@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(45, 45, 145);
+}
+
+.card-ota {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100px;
+}
+.card-bola {
+    width: 428px;
+    height: 700px;
+    top: -487px;
+    left: 22px;
+    border-radius: 50px;
+    background: linear-gradient(168.87deg, #19C3FB 2.43%, #1D71F2 99.31%);
+    box-shadow: -40px 60px 150px 0px #3B267BB2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#input {
+    width: 358px;
+    height: 58px;
+    top: 15px;
+    left: 40px;
+    border-radius: 30px;
+    border-width: 2px;
+    border: none;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29.71px;
+    letter-spacing: 0.47px;
+    text-align: center;
+    background: #D9D9D9;
+    border: 2px solid #3E2D8F
+}
+
+.card-bola h1 {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 29.71px;
+    letter-spacing: 0.47px;
+    text-align: center;
+    color: white;
+}
+
+#ota{
+    text-align: center;
+}
+.card-bola h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.71px;
+    letter-spacing: 0.47px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.card-bola h5 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.71px;
+    letter-spacing: 0.47px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.df h4 {
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29.71px;
+    letter-spacing: 0.47px;
+    text-align: right;
+    color: white;
+}
+
+#btn {
+    width: 304px;
+    height: 72px;
+    top: 764px;
+    left: 55px;
+    border-radius: 50px;
+    color: white;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 29.71px;
+    letter-spacing: 0.47px;
+    text-align: center;
+    transition: 1s;
+    border: 1px solid white;
+    background-color: #362A84;
+}
+
+#btn:hover {
+    color: #362A84;
+    background-color: #DDB130;
+    border: none;
+}
+
+.df{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
